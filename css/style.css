@@ -436,6 +436,10 @@ input {
 #css-text, #boot-text, #html-text, #js-text, #bash-text, #git-text, #node-text, #ajax-text, #lead-text{
   display:none;
 }
+#show-all-click, #hide-all-click {
+  text-decoration: underline;
+  
+}
 /* Media Queries
 ----------------------*/
 
