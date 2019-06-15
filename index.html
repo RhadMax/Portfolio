@@ -9,16 +9,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css"
-    href="css/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
 	<script src="https://use.fontawesome.com/releases/v5.9.0/js/all.js" data-auto-replace-svg="nest"></script>
-	<script type="text/javascript"
-    src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript"
-    src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 </head>
 
 <body>
@@ -175,61 +172,91 @@
 							<img src="img/fullstack.jpg" alt="fullstack image" class="img-responsive"
 								style="margin: 0 auto; padding-top: 15px;">
 							<div class="tm-box-description" style="padding-top: 0">
-								<h2>My Toolbelt Holds:</h2>
+								<h2>My Toolbelt Holds: --<i class="fab fa-html5 fa-2x"></i> - <i
+										class="fab fa-css3-alt fa-2x"></i> - <i class="fab fa-bootstrap fa-2x"></i> - <i
+										class="fab fa-js fa-2x"></i> - <i class="fab fa-git-alt fa-2x"></i> - <i
+										class="fab fa-github fa-2x"></i> - <i class="fab fa-node-js fa-2x"></i> - <i
+										class="fas fa-database fa-2x"></i> - <i class="fas fa-user-tie fa-2x"></i></h2>
 
-									<!-- // future addition, clean up section and only show parts on click of oversized visual icons -->
-								<!-- <p class="icon-prompt">--Select an icon for more details--</p> <br> -->
+								<!-- // future addition, clean up section and only show parts on click of oversized visual icons -->
+								<p class="text-center">--Click an icon above or below to show/hide more details--</p>
+								<br>
 								<p class="tm-box-p">
-									HTML <i class="fab fa-html5"></i> <br>
-									--I have worked exclusively with HTML:5, and feel very comfortable reading and
-									manipulating markup in this format. In my time using it I have been exposed to a
+									HTML <i class="fab fa-html5"></i> </p>
+								<p id="html-text">--I have worked exclusively with HTML version 5, and at this point
+									feel very comfortable reading and manipulating markup in this format. In my time
+									using it I have been exposed to a
 									wide range of elements and am familiar with in-line techniques as well as more
-									common conventions. <br><br>
-									CSS <i class="fab fa-css3-alt"></i> <br>
-									--I have been applying CSS concepts since within the first day of being introduced
-									to HTML. It has come easily to me and seems a straight forward syntax. I appreciate
+									common conventions.<br><br> </p>
+								<p class="tm-box-p">
+									CSS <i class="fab fa-css3-alt"></i> </p>
+								<p id="css-text">--I have been applying CSS concepts since within the first day of being
+									introduced to HTML. It has come easily to me and seems a straight forward syntax. I
+									appreciate
 									the depth of it and have more to learn but am confident in my ability to apply
-									styling to match designs. <br><br>
-									Bootstrap <i class="fab fa-bootstrap"></i> <br>
-									--Being introduced to this framework shortly after first exposure to CSS styling has
-									shown me how powerful using a pre-existing set of stylings can be. I am practiced
+									styling to match designs. <br><br> </p>
+								<p class="tm-box-p">
+									Bootstrap <i class="fab fa-bootstrap"></i> </p>
+								<p id="boot-text">--Being introduced to this framework shortly after first exposure to
+									CSS styling has shown me how powerful using a pre-existing set of stylings can be. I
+									am practiced
 									using a number of components from their library and have spent many hours perusing
 									their documentation as well as practicing applying their built-in classes in my own
-									projects. <br><br>
-									Javascript <i class="fab fa-js"></i> <br>
-									--This was the first language I decided to dive into when attempting to self teach,
+									projects. <br><br></p>
+								<p class="tm-box-p">
+									Javascript <i class="fab fa-js"></i> </p>
+								<p id="js-text">--This was the first language I decided to dive into when attempting to
+									self teach,
 									so my learning began with challenges found online and then really flourished once I
 									got into the exposure at the coding bootcamp. Currently I find this object oriented
 									lanuage the most interesting topic and am hungry to keep learning. Already I feel
-									capable of reaching any goal given with the aid of online references. I also have extensive practice making us of the jQuery library.<br><br>
-									<!--  attempt at jquery icon using github project, was not functional :/
+									capable of reaching any goal given with the aid of online references. I also have
+									extensive practice making us of the jQuery library.<br><br></p>
+								<!--  attempt at jquery icon using a reference of a github project I found, was not functional :/
 										<p class="ui-widget-content ui-state-default ui-helper-clearfix">
 										<span style="float: left; margin-right: 0.5em;"
 											class="ui-icon ui-icon-jquery">icon</span>
 									</p> -->
-									Bash Terminal <i class="fab fa-git-alt"></i> <br>
-									--I am comfortable navigating and managing files making use of the Git Bash terminal as well as a number of other useful command inputs.<br><br>
-									GitHub <i class="fab fa-github"></i> <br>
-									--GitHub repositories has been an integral part of my coding experience, and I have had the pleasure of using their features to work with others on collaborated projects and recognize the utility of their built in issues and project management tools.<br><br>
-									NodeJS <i class="fab fa-node-js"></i> <br>
-									--I have some experience working on javascript inside the run-time environment of node. <br><br>
-									Ajax, JSON, Axios <i class="fas fa-database"></i><br>
-									--Working through either jQuery with use of Ajax or NodeJS with the use of Axios I have had repeated practice accessing remote servers to receive data requests and manipulating the data received for functionality at the front-end.
-
-
+								<p class="tm-box-p">
+									Bash Terminal <i class="fab fa-git-alt"></i> </p>
+								<p id="bash-text">--I am comfortable navigating and managing files making use of the Git
+									Bash terminal as
+									well as a number of other useful command inputs.<br><br></p>
+								<p class="tm-box-p">
+									GitHub <i class="fab fa-github"></i> </p>
+								<p id="git-text">--GitHub repositories has been an integral part of my coding
+									experience, and I have had the pleasure of using their features to work with others
+									on collaborated projects and recognize the utility of their built in issues and
+									project management tools.<br><br>
 								</p>
-								<br>
-								<p class="tm-box-p"> Leadership <i class="fas fa-user-tie"></i><br>
-									--I have also put in over a decade of work in the food service
+								<p class="tm-box-p">
+									NodeJS <i class="fab fa-node-js"></i> </p>
+								<p id="node-text">--I have some experience working on javascript inside the run-time
+									environment of node.
+									<br><br></p>
+								<p class="tm-box-p">
+									Ajax, JSON, Axios <i class="fas fa-database"></i></p>
+								<p id="ajax-text">--Working through either jQuery with use of Ajax or NodeJS with the
+									use of Axios I have had repeated practice accessing remote servers to receive data
+									requests and
+									manipulating the data received for functionality at the front-end. <br><br> </p>
+								<p class="tm-box-p">
+									Leadership <i class="fas fa-user-tie"></i></p>
+								<p id="lead-text">--I have also put in over a decade of work in the food service
 									industry, almost all of which was spent in a leadership role as either a store
 									manager, a regional manager, or as a corporate partner overseeing operations at a
-									high level with in excess of 200 employees to keep track of and stay available as a contact
-									point for. This has made me comfortable in tasks such as improving work flow, offering
-									counsel, training or mediation, and also making hard decisions under the pressures of time or resources when
+									high level with in excess of 200 employees to keep track of and stay available as a
+									contact
+									point for. This has made me comfortable in tasks such as improving work flow,
+									offering
+									counsel, training or mediation, and also making hard decisions under the pressures
+									of time or resources when
 									necessary.</p>
-								<p class="tm-box-p"> Attached is a resume from my time as a food-service management professional if you are further interested in my prior work history.</p>
+								<p class="tm-box-p"> Attached is a resume from my time as a food-service management
+									professional if you are further interested in my prior work history.</p>
 								<a href="resume.html" target="_blank" class="content-link">Resume</a>
-								<a href="https://www.linkedin.com/in/max-rhad-7b5270185/" target="_blank" class="content-link">LinkedIn</a>
+								<a href="https://www.linkedin.com/in/max-rhad-7b5270185/" target="_blank"
+									class="content-link">LinkedIn</a>
 								<p class="text-muted">(Not yet fully formatted)</p>
 							</div>
 						</div>
@@ -241,9 +268,11 @@
 						<div class="testimonial-content">
 							<img class="img-border" src="img/psych.jpg" alt="Image">
 							<h2>Psychic-Game</h2>
-							<p>My first project! A simple game where you guess at a letter. Each round it is a random new letter and you have 10 tries. Themed after an old favorite game of mine, Shining Force II.</p>
-								<a href="https://github.com/RhadMax/Psychic-Game" class="content-link">GitHub</a>
-								<a href="https://rhadmax.github.io/Psychic-Game/" class="content-link">See it!</a>
+							<p>My first project! A simple game where you guess at a letter. Each round it is a random
+								new letter and you have 10 tries. Themed after an old favorite game of mine, Shining
+								Force II.</p>
+							<a href="https://github.com/RhadMax/Psychic-Game" class="content-link">GitHub</a>
+							<a href="https://rhadmax.github.io/Psychic-Game/" class="content-link">See it!</a>
 							<br>
 						</div>
 					</div>
@@ -251,19 +280,23 @@
 						<div class="testimonial-content">
 							<img class="img-border" src="img/crystal.jpg" alt="Image">
 							<h2>Crystal-Collector</h2>
-							<p>Another simple game done as a homework for the UCSD Extension Coding Bootcamp. Was practice in applying javascript concepts as well as html/css. Try to match the dealer's score!</p>
+							<p>Another simple game done as a homework for the UCSD Extension Coding Bootcamp. Was
+								practice in applying javascript concepts as well as html/css. Try to match the dealer's
+								score!</p>
 							<a href="https://github.com/RhadMax/unit-4-game" class="content-link">GitHub</a>
 							<a href="https://rhadmax.github.io/unit-4-game/" class="content-link">See it!</a>
-							
+
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 						<div class="testimonial-content">
 							<img class="img-border" src="img/tmnt.jpg" alt="Image">
 							<h2>TMNT Trivia Game</h2>
-							<p>Another bootcamp assignment, making use of JS timers while also providing experience with applying unique data attributes to elements in html. See how well you know the turtles!</p>
-								<a href="https://github.com/RhadMax/TriviaGame" class="content-link">GitHub</a>
-								<a href="https://rhadmax.github.io/TriviaGame/" class="content-link">See it!</a>
+							<p>Another bootcamp assignment, making use of JS timers while also providing experience with
+								applying unique data attributes to elements in html. See how well you know the turtles!
+							</p>
+							<a href="https://github.com/RhadMax/TriviaGame" class="content-link">GitHub</a>
+							<a href="https://rhadmax.github.io/TriviaGame/" class="content-link">See it!</a>
 							<br>
 						</div>
 					</div>
@@ -271,9 +304,11 @@
 						<div class="testimonial-content">
 							<img class="img-border" src="img/worldview.jpg" alt="Image">
 							<h2>World-View</h2>
-							<p>First collaborative project. Worked with Mike, Trevor and Oakkar creating a streamlined search engine with API's to return news and images, sans clutter. Check out their repos also!</p>
-								<a href="https://github.com/RhadMax/world-view" class="content-link">GitHub</a>
-								<a href="https://trevorfairbank.github.io/world-view/" class="content-link">See it!</a>
+							<p>First collaborative project. Worked with Mike, Trevor and Oakkar creating a streamlined
+								search engine with API's to return news and images, sans clutter. Check out their repos
+								also!</p>
+							<a href="https://github.com/RhadMax/world-view" class="content-link">GitHub</a>
+							<a href="https://trevorfairbank.github.io/world-view/" class="content-link">See it!</a>
 						</div>
 					</div>
 				</div>
@@ -357,7 +392,33 @@
 	<script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
 	<script src="js/parallax.js-1.3.1/parallax.js"></script> <!-- http://pixelcog.github.io/parallax.js/ -->
 	<script>
-
+		$(".fa-html5").on("click", function () {
+			$("#html-text").toggle();
+		});
+		$(".fa-css3-alt").on("click", function () {
+			$("#css-text").toggle();
+		});
+		$(".fa-bootstrap").on("click", function () {
+			$("#boot-text").toggle();
+		});
+		$(".fa-js").on("click", function () {
+			$("#js-text").toggle();
+		});
+		$(".fa-git-alt").on("click", function () {
+			$("#bash-text").toggle();
+		});
+		$(".fa-github").on("click", function () {
+			$("#git-text").toggle();
+		});
+		$(".fa-node-js").on("click", function () {
+			$("#node-text").toggle();
+		});
+		$(".fa-database").on("click", function () {
+			$("#ajax-text").toggle();
+		});
+		$(".fa-user-tie").on("click", function () {
+			$("#lead-text").toggle();
+		});
 		// HTML document is loaded. DOM is ready.
 		$(function () {
 

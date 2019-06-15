@@ -433,7 +433,9 @@ input {
 .img-border {
   border: solid 1px black;
 }
-
+#css-text, #boot-text, #html-text, #js-text, #bash-text, #git-text, #node-text, #ajax-text, #lead-text{
+  display:none;
+}
 /* Media Queries
 ----------------------*/
 
