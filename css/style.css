@@ -430,6 +430,9 @@ input {
 .navbar .navbar-collapse {
     text-align: center;
 }
+.img-border {
+  border: solid 1px black;
+}
 
 /* Media Queries
 ----------------------*/
