@@ -1,19 +1,3 @@
-/*
-
-Conquer Template
-
-http://www.templatemo.com/tm-476-conquer
-
-
-iframe {
-  display: block;
-  border: 0;
-  position: absolute; 
-  width: 100%; 
-  height: 100%; 
-}
-
-*/
 
 body,
 h1,
@@ -30,6 +14,7 @@ h6,
 .h6 {
     font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
 }
+
 body {
   overflow-x: hidden;
 }
@@ -39,31 +24,29 @@ img {
   height: auto;
   border: none;
 }
+
 h1 {
   font-size: 36px;
 }
+
 h2 {
   font-size: 20px;
   font-weight: 700;
 }
-p{
+
+p {
   font-size: 14px;
   line-height: 1.6em;
   margin: 0;
 }
+
 a:hover { text-decoration: none; }
 
-/* Start Main Menu */
+
 header {
-  /*background-image: url("../img/bg-1.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
   padding: 235px 0;
-  /*margin-bottom: 60px;*/
-  /*background-attachment: fixed;*/
-  /*background-size: 100% 100%;*/
 }
+
 ul#menu {
 background: #40475A none repeat scroll 0 0;
 padding: 6px;
@@ -71,15 +54,17 @@ position: fixed;
 text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 width: 100%;
 z-index: 999;
-    }
+}
+
 .main-menu {
   margin-top: -234px;
 }
-.main-menu ul{}
+
 .main-menu ul li {
   display: inline-block;
   padding: 10px;
 }
+
 .main-menu ul li a {
   background: #383E4C none repeat scroll 0 0;
   border: 1px solid #646d7c;
@@ -89,49 +74,46 @@ z-index: 999;
   text-decoration: none;
   text-transform: capitalize;
 }
-/*.main-menu ul li.active a,*/
+
 .main-menu ul li a:focus,
 .main-menu ul li a:hover {
   background: #49505F;
 }
+
 .header-content  h1 {
   color: #fff;
   font-size: 70px;
   text-transform: uppercase;
   text-shadow: 2px 2px #000;
 }
+
 .header-content h4 {
   color: #fff;
   font-size: 25px;
   text-shadow: 1px 1px #333;
 }
-.single-page-nav { text-align: center; }
-/* End Header CSS */
 
-/* Start Feature CSS */
-.green-text { color: #178A27; }
-.blue-text { color: #1686C1; }
-.gray-text { color: #1686C1; }
-.green-btn { background: #178A27; }
-.green-btn:hover { background: #449D44; }
-.blue-btn { background: #1686C1; }
-.blue-btn:hover { background: #31B0D5; }
-.red-btn { background: #852406; }
-.red-btn:hover { background: #C9302C; }
+.single-page-nav { 
+  text-align: center;
+}
+
 .feature-content {
     background: #F2F2F2;
     padding-bottom: 40px;
 }
+
 .feature-content-title {
     padding: 0 20px;
     text-align: left;    
 }
+
 .feature-content-description {
     padding: 0 20px 35px;
     text-align: left;
     color: #333333;
     margin-top: 15px;
 }
+
 .feature-content-link {
     border-radius: 5px;
     color: #fff;
@@ -142,104 +124,60 @@ z-index: 999;
     -webkit-transition: all 0.3s ease;
             transition: all 0.3s ease;
 }
+
 .feature-content-link:hover, .feature-content-link:link, .feature-content-link:visited  {
   color: white;
   text-decoration: none;
 }
 
-/* End Feature CSS */
-
-/* Start Blog CSS */
-#blog-area {
-    margin: 60px 0px;
-}
-.blog-content {
-  background: #F2F2F2;
-  padding-bottom:25px;
-  max-width: 555px;
-  margin: 0 auto;
-}
-.blog-content h2 {
-    color: #666666;
-    text-transform: capitalize;
-}
-.blog-content p {
-    padding: 27px;
-    text-align: left;
-    color: #333333;
-}
-.blog-content span {
-  margin-left: 225px;
-}
-.blog-content span a {
-    background: #fff none repeat scroll 0 0;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    color: #666666;
-    font-size: 18px;
-    padding: 10px 30px;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-.blog-content span a:hover {
-    background: #E6E6E6 none repeat scroll 0 0;
-}
-.blog-content > p#blofr {
-    padding: 8px;
-}
-/* End Blog CSS */
-
-/* Start Services CSS */
-div#service-area-main {
-    float: left;
-    width: 100%;
-  margin-top:-200px;
-}
-.our-service{
+.my-skill{
   margin:65px 0px 85px;
 }
-/*section#services-area {
-  background-image: url("../img/bg-2.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}*/
-.service  h1 {
+
+.skill h1 {
+  display: inline;
   color: #fff;
   text-transform: capitalize;
-  text-shadow: 2px 2px #aaa;
   margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.420);
+  border-radius: 21px 21px 10px 10px;
 }
-.service > p {
+.skill p {
+    display: inline;
     color: #fff;
     font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.420);
+    border-radius: 5px 15px 5px 5px;
 }
-/* End Services CSS */
 
-/* Start Testimornial CSS */
-#testimornial-area{
+#toolbox-area{
   margin: 60px 0;
 }
+
 h2 {
     color: #666666;
 }
+
 .red-text {
   color:rgb(94, 16, 16);
 }
+
 .heavy-shadow {
   text-shadow: 2px 2px black;
 }
-.testimonial-content {
+
+.toolbox-content {
   background-color: #f2f2f2;
   height: 500px;
   max-width: 260px;
   margin: 0 auto 30px;
 }
-.testimonial-content  p {
+
+.toolbox-content  p {
     padding: 10px 20px;
     text-align: left;
 }
+
 .content-link {
     background: #fff none repeat scroll 0 0;
     border: 1px solid #cdcdcd;
@@ -254,20 +192,47 @@ h2 {
     -webkit-transition: all 0.3s ease;
             transition: all 0.3s ease;
 }
+
 .content-link:hover,
 .content-link:focus {
     background: #E6E6E6 none repeat scroll 0 0;
 }
 
-/* End Testimornial CSS */
+.fa-html5{
+  color:rgb(255, 115, 0);
+}
+.fa-css3-alt{
+  color: rgb(71, 125, 207)
+}
+.fa-bootstrap{
+  color:rgb(84, 13, 117)
+}
+.fa-js{
+  color:yellow;
+  background-color:rgba(0, 0, 0, 0.575);
+  border-radius: 5px;
+}
+.fa-git-alt{
+  color: orangered;
+}
+.fa-github{
+  color: black;
+}
+.fa-node-js{
+  color:green;
+}
+.fa-database{
+  color:cornflowerblue;
+}
+.fa-user-tie{
+  color:black;
+}
+.fa-npm {
+  color:orange;
+  background-color:rgba(0, 0, 0, 0.651);
+  border-radius: 55px;
+}
 
-/* Start Contact CSS */
-/*section#contact-area {
-  background-image: url("../img/bg-3.jpg");
-  background-position: center center;
-  background-size: cover;  
-  background-attachment: fixed; 
-}*/
 .contact-content h1 {
     color: #fff;
     text-transform: capitalize;
@@ -352,7 +317,7 @@ input {
     padding-top: 70px;
 }
 
-.services-section {
+.skills-section {
     height: 100%;
    /* padding-top: 150px;*/
 }
@@ -433,7 +398,7 @@ input {
 .img-border {
   border: solid 1px black;
 }
-#css-text, #boot-text, #html-text, #js-text, #bash-text, #git-text, #node-text, #ajax-text, #lead-text{
+#css-text, #boot-text, #html-text, #js-text, #bash-text, #git-text, #node-text, #ajax-text, #npm-text, #lead-text{
   display:none;
 }
 #show-all-click, #hide-all-click {
@@ -460,7 +425,7 @@ input {
     padding: 27px;
   }
   .blog-content span { margin-left: 0; }
-  .service > p { font-size: 18px; }
+  .skill > p { font-size: 18px; }
   .contact-content p {
     font-size: 18px;
     padding: 15px 0;
@@ -475,7 +440,7 @@ input {
 
 @media only screen and (max-width: 1024px) {
   header,
-  section#services-area,
+  section#skills-area,
   section#contact-area {
     background-attachment: scroll;
   }
